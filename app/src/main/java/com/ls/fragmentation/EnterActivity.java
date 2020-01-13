@@ -8,7 +8,7 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
-import com.ls.fragmentation.demo_flow.MainActivity;
+import com.ls.fragmentation.demo.MainActivity;
 
 public class EnterActivity extends AppCompatActivity {
 
@@ -31,18 +31,5 @@ public class EnterActivity extends AppCompatActivity {
             }
         });
 
-//        findViewById(R.id.btn_wechat).setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                startActivity(new Intent(EnterActivity.this, me.yokeyword.sample.demo_wechat.MainActivity.class));
-//            }
-//        });
-//
-//        findViewById(R.id.btn_zhihu).setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                startActivity(new Intent(EnterActivity.this, me.yokeyword.sample.demo_zhihu.MainActivity.class));
-//            }
-//        });
     }
 }
